@@ -1,3 +1,8 @@
+![pic 1](https://github.com/code-its-Ahmad/Social-media-app-web/assets/166840462/e09b1923-051a-4d53-b816-40609997d9a4)
+![pic 2](https://github.com/code-its-Ahmad/Social-media-app-web/assets/166840462/61b63b36-89f2-456e-b709-835d1a55cd3d)
+![pic 3](https://github.com/code-its-Ahmad/Social-media-app-web/assets/166840462/fb57cbcf-0a32-4b93-9d16-df19a908b36b)
+![pic 4](https://github.com/code-its-Ahmad/Social-media-app-web/assets/166840462/9aa1682f-5be8-4ca7-912b-443c739c9747)
+![pic 5](https://github.com/code-its-Ahmad/Social-media-app-web/assets/166840462/674cc85d-276e-48e4-a767-1b165568262d)
 # Social Media App
 
 This project is a social media application built using React.js for the frontend and Laravel for the backend.
