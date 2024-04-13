@@ -1,0 +1,55 @@
+.mainuser-container
+{
+    height: 995px;
+    width: 760px;
+   position: relative;
+   margin-left: 400px;
+}
+.profile-detaile
+{
+
+    margin-top: 60px;
+    margin-left: 60px;
+    border-radius: 50%;
+    display: flex;
+    width: 160px;
+    height: 160px;
+    
+   
+}
+
+.detailed
+{
+    position: absolute;
+    margin-top: -200px;
+    margin-left: -170px;
+}
+.detailed1{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: -170px;
+}
+
+.edit
+{
+    font-size: 20px;
+    margin:20px ;
+    background-color: aqua;
+   
+}
+.edit1{
+    font-size: 20px;
+    margin: 25px;
+    
+
+}
+
+  .UserProfilemain{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    display: flex; 
+    margin-left: -270%;
+}
+
+  

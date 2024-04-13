@@ -1,0 +1,203 @@
+.pageone {
+  margin-top: -34.2rem;
+  margin-left: 40rem;
+}
+
+.first-container {
+  border: 2px solid rgb(214, 214, 214);
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.Title,
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 100px;
+}
+
+.fb {
+  width: 1.4rem;
+  margin-right: 1rem;
+  margin-top: 3px;
+}
+
+.username,.password {
+  padding: 0.6rem;
+  width: 15.4rem;
+  margin-bottom: 1rem;
+  outline: 1.2px solid rgb(255, 239, 239);
+  border: none;
+  background-color: rgb(239, 221, 221);
+  margin-left: 80px;
+
+}
+
+.Login {
+  background-color: rgb(75, 153, 255);
+  border: none;
+  width: 16.8rem;
+  padding: 0.7rem;
+  font-size: 0.9rem;
+  color: white;
+  font-weight: bold;
+  border-radius: 0.4rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  margin-inline: 65px;
+}
+
+.or {
+  color: rgb(7, 6, 6);
+  font-size: 0.8rem;
+}
+
+.facebook {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10px;
+}
+
+.second-container {
+  border: 2px solid rgb(214, 214, 214);
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+  color: gray;
+  padding: 0.5rem 0rem;
+}
+
+.third-container {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+  color: rgb(57, 57, 57);
+}
+
+.fourth-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25rem;
+}
+
+.app {
+  width: 9rem;
+  height: 2.7rem;
+  margin-right: 0.6rem;
+}
+
+.footer {
+  top: 5px;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  left: 0;
+  bottom: 3px;
+  width: 100%;
+}
+
+.footer a {
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 15px;
+  color: gray;
+}
+
+.mainImage {
+  background-position: -46px 0px;
+  background-size: 468.32px 634.15px;
+  margin-bottom: 12px;
+  height: 581.15px;
+  background-repeat: no-repeat;
+  margin-left: 170px;
+  margin-top: 50px;
+}
+
+.overlanp {
+  position: absolute;
+  z-index: 99;
+  border-radius: 30px;
+  margin-top: -570px;
+  margin-left: 290px;
+  height: 532px;
+  width: 251px;
+  background-image: url(./Image/2.png);
+  animation: changeImage 10s linear infinite;
+  background-repeat: no-repeat;
+}
+
+.dark-mode .first-container {
+  border-color: #555;
+  background-color: #333;
+  color: #ddd;
+}
+
+.dark-mode .username,
+.dark-mode .password {
+  outline: 1.2px solid #555;
+  background-color: #444;
+  color: #ddd;
+}
+
+.dark-mode .Login {
+  background-color: #555;
+}
+
+.dark-mode .or {
+  color: #ddd;
+}
+
+.dark-mode .facebook {
+  background-color: #444;
+  color: #ddd;
+}
+
+.dark-mode .second-container {
+  border-color: #555;
+  background-color: #333;
+  color: #ddd;
+}
+
+.dark-mode .third-container {
+  color: #ddd;
+}
+
+.dark-mode .footer a {
+  color: #ddd;
+}
+
+@keyframes changeImage {
+  0% {
+    background-image: url(./Image/3.png);
+  }
+  25% {
+    background-image: url(./Image/4.png);
+  }
+  50% {
+    background-image: url(./Image/5.png);
+  }
+  75% {
+    background-image: url(./Image/3.png);
+  }
+  100% {
+    background-image: url(./Image/2.png);
+  }
+}

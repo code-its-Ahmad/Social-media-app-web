@@ -1,0 +1,144 @@
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5.2rem;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+}
+
+.Title {
+  margin: 2rem 0;
+  font-size: 2.4rem;
+  color: rgb(52, 52, 52);
+}
+
+
+.first-container {
+  border: 2px solid rgb(214, 214, 214);
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+.fb {
+  width: 1.4rem;
+  margin-right: 1rem;
+  margin-top: -35px;
+}
+
+.Email,
+.password,
+.FullName,
+.Username {
+  padding: 0.6rem;
+  width: 15.4rem;
+  margin-bottom: 1rem;
+  outline: 1.2px solid rgb(193, 193, 193);
+  border: none;
+  background-color: rgb(233, 233, 233);
+}
+
+/* Facebook Button Styles */
+.Facebook {
+  background-color: rgb(134, 181, 243);
+  border: none;
+  width: 16.8rem;
+  padding: 0.7rem;
+  font-size: 1.9rem;
+  color: white;
+  font-weight: bold;
+  border-radius: 0.4rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.Facebook:hover {
+  background-color: rgb(37, 96, 173);
+}
+
+
+
+/* Divider Styles */
+.divider {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.divider-line {
+  flex-grow: 1;
+  margin: 0 8px;
+  border: 0.5px solid rgb(193, 193, 193);
+}
+
+/* Signup Button Styles */
+.Signup {
+  text-decoration: none;
+  background-color: rgb(134, 181, 243);
+  border: none;
+  width: 16.8rem;
+  padding: 0.7rem;
+  font-size: 0.9rem;
+  color: white;
+  font-weight: bold;
+  border-radius: 0.4rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  cursor: pointer;
+  margin-inline: 65px;
+}
+
+.Signup:hover {
+  background-color: rgb(37, 96, 173);
+}
+
+/* Second Container Styles */
+.second-container {
+  text-decoration: none;
+  border: 2px solid rgb(214, 214, 214);
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+  color: gray;
+  padding: 0.5rem 0rem;
+}
+
+/* Third Container Styles */
+.third-container {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+  color: rgb(57, 57, 57);
+}
+
+/* Fourth Container Styles */
+.forth-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25rem;
+}
+
+/* App Image Styles */
+.app {
+  width: 9rem;
+  height: 2.7rem;
+  margin-right: 0.6rem;
+}

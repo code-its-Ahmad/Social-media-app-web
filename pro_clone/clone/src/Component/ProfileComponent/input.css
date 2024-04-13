@@ -1,0 +1,57 @@
+/* styles.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .comment-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .all-comment {
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .reply {
+    color: blue;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .comment-details {
+    margin-top: 20px;
+  }
+  
+  .input {
+    width: 70%;
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  .btn {
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  .comment-detailq
+  {
+margin-left: 50px;
+
+  }
+  

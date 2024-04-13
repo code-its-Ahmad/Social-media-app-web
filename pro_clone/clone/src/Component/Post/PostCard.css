@@ -1,0 +1,43 @@
+
+.post-card-container {
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .user-info {
+    margin-left: 12px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dots {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    position: absolute;
+    z-index: 1;
+    top: 100%; 
+    right: 0; 
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .Comment{
+    margin-right: 150%;
+  }
+ 
